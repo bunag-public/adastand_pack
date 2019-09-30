@@ -43,3 +43,15 @@ from dloptimizer.tensorflow.keras import Adastand
 optimizer = Adastand(lr=0.01)
 ```
 
+# Citation of SDProp
+```
+@inproceedings{ida17,
+  author    = {Yasutoshi Ida and
+               Yasuhiro Fujiwara and
+               Sotetsu Iwamura},
+  title     = {Adaptive Learning Rate via Covariance Matrix Based Preconditioning for Deep Neural Networks},
+  booktitle = {Proceedings of the Twenty-Sixth International Joint Conference on Artificial Intelligence ({IJCAI})},
+  pages     = {1923--1929},
+  year      = {2017}
+}
+```
